@@ -43,7 +43,7 @@
     - 2.3.2 uninitialized_fill
     - 2.3.3 uninitialized_fill_n
 
-## 第 3 章  迭代器（iterators）概念与traits 编程技巧
+## 第 3 章  迭代器（iterators）概念与 traits 编程技巧
 
 - 3.1 迭代器设计思维——STL关键所在
 - 3.2 迭代器(iterator)是一种smart pointer
