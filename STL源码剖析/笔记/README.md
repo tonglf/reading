@@ -62,7 +62,7 @@
 
 - 4.1 容器的概观与分类
     - 4.1.1 序列式容器(sequential containers)
-- 4.2 vector
+- 4.2 [vector](file/4.2C++STLvector使用.md)
     - 4.2.1 vector概述
     - 4.2.2 vector定义摘要
     - 4.2.3 vector的迭代器
