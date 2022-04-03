@@ -75,7 +75,7 @@
     - 4.3.3 list的迭代器
     - 4.3.4 list的数据结构
     - 4.3.5 list的构造与内存管理：constructor，push_back，insert
-    - 4.3.6 list的元素操作：push_front，push_back，erase，pop_front，pop_back，clear，remove，unique,splice，merge，reverse，sort
+    - 4.3.6 [list的元素操作](file/4.3.6list的元素操作.md)：push_front，push_back，erase，pop_front，pop_back，clear，remove，unique,splice，merge，reverse，sort
 - 4.4 deque
     - 4.4.1 deque概述
     - 4.4.2 deque的中控器
