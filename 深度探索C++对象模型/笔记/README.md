@@ -4,6 +4,54 @@
 
 ### 1.1  C++对象模式
 
+对于 Point 类：
+
+```cpp
+class Point {
+public:
+    Point(float xval);
+    virtual ~Point();
+    
+    float x() const;
+    static int PointCount();
+    
+protected:
+    virtual ostream& print(ostream &os) const;
+    
+    float _x;
+    static int _point_count;
+};
+```
+
+**C++ 对象模型**：
+
+![](file/images/1.3.jpg)
+
+加上继承：
+
+```cpp
+class istream : virtual public ios {};
+class ostream : virtual public ios {};
+
+class iostream : public istream, public ostream {};
+```
+
+
+
+![](file/images/1-多重继承.jpg)
+
+
+
+
+
+
+
+![](file/images/1-虚函数布局.jpg)
+
+
+
+type_info for X ?
+
 
 
 ### 1.2  关键词带来的差异（A Keyword Distinction）
