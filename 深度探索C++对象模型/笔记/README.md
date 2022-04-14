@@ -2,63 +2,24 @@
 
 ## 第 1 章  关于对象（Object Lessons）
 
-### 1.1  C++对象模式
+[笔记链接](file/第1章.md)
 
-对于 Point 类：
+1.1  C++对象模式
 
-```cpp
-class Point {
-public:
-    Point(float xval);
-    virtual ~Point();
-    
-    float x() const;
-    static int PointCount();
-    
-protected:
-    virtual ostream& print(ostream &os) const;
-    
-    float _x;
-    static int _point_count;
-};
-```
+1.2  关键词带来的差异（A Keyword Distinction）
 
-**C++ 对象模型**：
-
-![](file/images/1.3.jpg)
-
-加上继承：
-
-```cpp
-class istream : virtual public ios {};
-class ostream : virtual public ios {};
-
-class iostream : public istream, public ostream {};
-```
+1.3  对象的差异（An Object Distinction）
 
 
 
-![](file/images/1-多重继承.jpg)
+## 第 2 章  构造函数语意学（The Semantics of Constructors）
 
+[笔记链接](file/第2章.md)
 
+2.1  Default Constructor 的构造操作
 
+2.2  Copy Constructor 的构造操作
 
+2.3 程序转化语意学（Program Transformation Semantics）
 
-
-
-![](file/images/1-虚函数布局.jpg)
-
-
-
-type_info for X ?
-
-
-
-### 1.2  关键词带来的差异（A Keyword Distinction）
-
-
-
-### 1.3  对象的差异（An Object Distinction）
-
-
-
+2.4  成员们的初始化队伍（Member Initialization List）
