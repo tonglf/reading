@@ -44,3 +44,16 @@
 
 
 
+## 第 4 章  Function 语意学（The Semantics of Function）
+
+[笔记链接](file/第4章.md)
+
+4.1  Member 的各种调用方式
+
+4.2  Virtual Member Function （虚拟成员函数）
+
+4.3  函数的效能
+
+4.4  指向 Member Function 的指针（Pointer-to-Member Functions）
+
+4.5  Inline Functions
