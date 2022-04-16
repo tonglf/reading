@@ -57,3 +57,19 @@
 4.4  指向 Member Function 的指针（Pointer-to-Member Functions）
 
 4.5  Inline Functions
+
+
+
+## 第 5 章  构造、析构、拷贝语意学（Semantics of Construction Destruction，and Copy）
+
+[笔记链接](file/第5章.md)
+
+5.1  “无继承” 情况下的对象构造
+
+5.2  继承体系下的对象构造
+
+5.3  对象复制语意学（Object Copy Semantics）
+
+5.4  对象的效能（Object Efficiency）
+
+5.5  析构语意学（Semantics of Destruction）
