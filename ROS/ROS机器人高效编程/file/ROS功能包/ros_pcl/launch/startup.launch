@@ -1,0 +1,44 @@
+<launch>
+    <!-- 01 create point cloud -->
+    <!-- <node pkg = "ros_pcl" type = "01_pcl_create" name = "create"/> -->
+
+    <!-- 02 03 read and write point cloud -->
+    <!-- <node pkg = "ros_pcl" type = "02_pcl_read" name = "read" /> -->
+    <!-- <node pkg = "ros_pcl" type = "03_pcl_write" name = "write" /> -->
+
+    <!-- 04 read visualize point cloud -->
+    <!-- <node pkg = "ros_pcl" type = "02_pcl_read" name = "read" /> -->
+    <!-- <node pkg = "ros_pcl" type = "04_pcl_visualize" name = "cloudviewer" /> -->
+
+    <!-- 05 read filter downsample visualize pointcloud -->
+    <!-- <node pkg = "ros_pcl" type = "02_pcl_read" name = "read" /> -->
+    <!-- <node pkg = "ros_pcl" type = "05_pcl_filter" name = "filter" /> -->
+    <!-- <node pkg = "ros_pcl" type = "06_pcl_downsampling" name = "downsampling" /> -->
+    <!-- <node pkg = "ros_pcl" type = "04_pcl_visualize02" name = "visualize02" /> -->
+
+    <!-- 06 matching -->
+    <node pkg = "ros_pcl" type = "02_pcl_read" name = "read" />
+    <node pkg = "ros_pcl" type = "05_pcl_filter" name = "filter" />
+    <node pkg = "ros_pcl" type = "06_pcl_downsampling" name = "downsampling" />
+    <node pkg = "ros_pcl" type = "07_pcl_matching" name = "pcl_matching" />
+
+    <!-- 07 partitioning -->
+    <!-- <node pkg = "ros_pcl" type = "02_pcl_read" name = "read" /> -->
+    <!-- <node pkg = "ros_pcl" type = "05_pcl_filter" name = "filter" /> -->
+    <!-- <node pkg = "ros_pcl" type = "06_pcl_downsampling" name = "downsampling" /> -->
+    <!-- <node pkg = "ros_pcl" type = "08_pcl_partitioning" name = "partitioning" /> -->
+
+    <!-- 08 model_estimation -->
+    <!-- <node pkg = "ros_pcl" type = "02_pcl_read" name = "read" /> -->
+    <!-- <node pkg = "ros_pcl" type = "05_pcl_filter" name = "filter" /> -->
+    <!-- <node pkg = "ros_pcl" type = "06_pcl_downsampling" name = "downsampling" /> -->
+    <!-- <node pkg = "ros_pcl" type = "09_pcl_model_estimation" name = "model_estimation" /> -->
+
+    <!-- 09 planar_segmentation -->
+    <!-- <node pkg = "ros_pcl" type = "02_pcl_read" name = "read" /> -->
+    <!-- <node pkg = "ros_pcl" type = "05_pcl_filter" name = "filter" /> -->
+    <!-- <node pkg = "ros_pcl" type = "06_pcl_downsampling" name = "downsampling" /> -->
+    <!-- <node pkg = "ros_pcl" type = "10_pcl_planar_segmentation" name = "planar_segmentation" /> -->
+
+
+</launch>
